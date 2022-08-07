@@ -1,0 +1,22 @@
+.featured-post-container {
+    display: flex;
+    background: url("../../img/banner-bg.png");
+    color: white;
+}
+
+.headerImg {
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

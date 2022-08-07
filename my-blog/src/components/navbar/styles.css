@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url("../../img/footer-bg.png");
+}
+
+.nav-link {
+    margin:  0px 10px;
+    color:rgb(255, 255, 255);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
