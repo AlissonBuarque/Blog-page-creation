@@ -1,15 +1,23 @@
 .navbar {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+    align-items: center;
     background: url("../../img/footer-bg.png");
+    border-radius: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
 }
 
 .nav-link {
     margin:  0px 10px;
     color:rgb(255, 255, 255);
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .logo {
@@ -17,3 +25,19 @@
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
+
+.navBarHover {
+        transition: all 0.5s;
+        cursor: pointer;
+}
+    
+    .navBarHover:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.loginButton {
+    font-size: 20px;
+    padding: 10px;
+}
+

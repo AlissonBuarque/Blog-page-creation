@@ -7,15 +7,17 @@ export default function Navbar() {
         <nav className="navbar">  
             <div>
                 <Link className="logo" to="/">
-                <h3>Meu Blog DEV</h3>
+                <span><h3>Meu Blog DEV</h3></span>
                 </Link>
             </div>
 
-            <div>
+            <div className="navBarHover">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/post">Post</Link>
                 <Link className="nav-link" to="/contact">Contato</Link>
-            <button class="" type="submit">Login</button>
+            </div>
+            <div>
+                <button class="loginButton" type="submit"> Login </button>
             </div>
             
 

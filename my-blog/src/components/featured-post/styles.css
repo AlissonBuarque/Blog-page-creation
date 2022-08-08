@@ -2,21 +2,49 @@
     display: flex;
     background: url("../../img/banner-bg.png");
     color: white;
+    padding-right: 50px;
+    padding-left: 100px;
+    align-items: center;
+    margin-top: 1px;
+    border-radius: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .headerImg {
-    animation-duration: 5s;
-    animation-name: slidein;
+    animation: updown 3s linear infinite;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 200%
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
   }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+  50% {
+    transform: translateY(20px);
   }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.featured-post-container div img {
+  width: 40vw;
+}
+
+.featured-post-container div:nth-child(2) {
+  max-width: 40vw;
+}
+
+.featured-post-date {
+  font-size: 0.8rem ;
+}
+
+.featured-post-title {
+  margin-top: 20px;
+}
+
+.featured-post-description {
+  margin-top: 20px;
 }
