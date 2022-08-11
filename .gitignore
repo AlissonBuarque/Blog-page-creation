@@ -20,7 +20,7 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 # dependencies
-
+/node_modules
 /.pnp
 .pnp.js
 
