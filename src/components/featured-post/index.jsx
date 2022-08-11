@@ -13,11 +13,12 @@ export default function FeaturedPost() {
                 Delegadis gente finis, bibendum egestas augue arcu ut est.Casamentiss faiz malandris se pirulitá.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Aenean aliquam molestie leo, vitae iaculis nisl. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Interagi no mé, cursus quis, vehicula ac nisi.
                 </p>
             </div>
-
             <div className="headerImg">
                 <img src={headerImg}/>
             </div>
         </div>
+
+
     );
 
 }

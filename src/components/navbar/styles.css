@@ -1,4 +1,4 @@
-.navbar {
+.navbarOut {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -10,6 +10,7 @@
     margin-left: 1px;
     margin-right: 1px;
     margin-top: 1px;
+    color: white;
 }
 
 .nav-link {
@@ -29,6 +30,7 @@
 .navBarHover {
         transition: all 0.5s;
         cursor: pointer;
+        font-size: 20px;
 }
     
     .navBarHover:hover{
